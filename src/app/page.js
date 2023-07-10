@@ -9,6 +9,7 @@ import { useEffect, useState, useRef } from "react";
 import Polygons from "./_components/Polygons/Polygons";
 import { AnimatePresence, motion } from "framer-motion";
 import { GlobalStore } from "./GlobalStore";
+import Logo from "./_components/Logo/Logo";
 
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
@@ -54,7 +55,10 @@ export default function Home() {
   };
 
   const links = [
-    { label: "Github", href: "https://github.com/LucianoInfanti/polygons-design" },
+    {
+      label: "Github",
+      href: "https://github.com/LucianoInfanti/polygons-design",
+    },
     // {
     //   label: "Subscribe",
     //   href: "https://www.linkedin.com/in/luciano-infanti/",
@@ -65,16 +69,7 @@ export default function Home() {
     <main className={styles.container}>
       <div className={styles.first_col}>
         <div className={styles.logo}>
-          <Link href={"/"}>
-            <TextReveal text={"Polygons [·] Design"} />
-          </Link>
-          <a
-            className={styles.author}
-            target="_blank"
-            href={"https://www.linkedin.com/in/luciano-infanti/"}
-          >
-            <TextReveal text={"By Luciano Infanti"} />
-          </a>
+          <Logo />
         </div>
         <div className={styles.date}>
           <CurrentDate />
@@ -102,7 +97,7 @@ export default function Home() {
                     key={index}
                     initial={{ scale: 0, rotate: -360 }}
                     animate={{ scale: 1, rotate: 0 }}
-                    exit={{scale: 0, rotate: 360 }}
+                    exit={{ scale: 0, rotate: 360 }}
                     transition={{ duration: 0.6, ease: [0.77, 0, 0.175, 1] }}
                     className={styles.polygon_wrapper}
                   >

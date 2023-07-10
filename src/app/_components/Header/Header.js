@@ -11,10 +11,9 @@ import { useEffect, useState } from "react";
 
 export const Header = () => {
   const { sideNum, colorGradient, clipPath } = GlobalStore((state) => state);
+  const pathname = usePathname(); // Correct usage of the hook
 
-  const index = Data.findIndex(
-    (obj) => obj.slug === usePathname().substring(1)
-  );
+  const index = Data.findIndex((obj) => obj.slug === pathname.substring(1));
 
   const rotationAnimationOuter = {
     rotate: {

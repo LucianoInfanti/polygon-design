@@ -12,9 +12,9 @@ import { GlobalStore } from "../../GlobalStore";
 import { Header } from "@/app/_components/Header/Header";
 import { Paragraph } from "@/app/_components/Paragraph/Paragraph";
 import { LinkComponent } from "@/app/_components/LinkComponent/LinkComponent";
+import Logo from "@/app/_components/Logo/Logo";
 
 export default function Home() {
-
   const [isHovered, setIsHovered] = useState(false);
   const [counter, setCounter] = useState(0);
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -57,25 +57,18 @@ export default function Home() {
     setCounter(sum);
   };
 
-
   const links = [
-    { label: "Github", href: "https://github.com/LucianoInfanti/polygons-design" },
+    {
+      label: "Github",
+      href: "https://github.com/LucianoInfanti/polygons-design",
+    },
   ];
 
   return (
     <main className={styles.container}>
       <div className={styles.first_col}>
         <div className={styles.logo}>
-          <Link href={"/"}>
-            <TextReveal text={"Polygons [·] Design"} />
-          </Link>
-          <a
-            className={styles.author}
-            target="_blank"
-            href={"https://www.linkedin.com/in/luciano-infanti/"}
-          >
-            <TextReveal text={"By Luciano Infanti"} />
-          </a>
+          <Logo></Logo>
         </div>
         <div className={styles.date}>
           <CurrentDate />
@@ -88,26 +81,7 @@ export default function Home() {
             Locking your layers is like throwing down some sand for traction. It
             secures everything in place, helping you avoid those 'Oops, I didn't
             mean to move that' moments. Or something like realising an animation
-            is wrong 'cause something is out of place but you don't know{" "}
-            <LinkComponent href={"google.com"} text={"this link"} /> or where
-            that thing. Again, the Protopie canvas is not as friendly. Plus, it
-            saves time in the long run by reducing unnecessary adjustments.⁠
-          </Paragraph>
-
-          <Paragraph>
-            Locking your layers is like throwing down some sand for traction. It
-            secures everything in place, helping you avoid those 'Oops, I didn't
-            mean to move that' moments. Or something like realising an animation
-            is wrong 'cause something is out of place but you don't know{" "}
-            <LinkComponent href={"google.com"} text={"this link"} /> or where
-            that thing. Again, the Protopie canvas is not as friendly. Plus, it
-            saves time in the long run by reducing unnecessary adjustments.⁠
-          </Paragraph>
-          <Paragraph>
-            Locking your layers is like throwing down some sand for traction. It
-            secures everything in place, helping you avoid those 'Oops, I didn't
-            mean to move that' moments. Or something like realising an animation
-            is wrong 'cause something is out of place but you don't know{" "}
+            is wrong 'cause something is out of place but you don't know
             <LinkComponent href={"google.com"} text={"this link"} /> or where
             that thing. Again, the Protopie canvas is not as friendly. Plus, it
             saves time in the long run by reducing unnecessary adjustments.⁠
