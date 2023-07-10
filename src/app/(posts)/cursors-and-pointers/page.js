@@ -79,9 +79,10 @@ export default function Home() {
         <div className={styles.article_wrapper}>
           <Paragraph>
             Locking your layers is like throwing down some sand for traction. It
-            secures everything in place, helping you avoid those 'Oops, I didn't
-            mean to move that' moments. Or something like realising an animation
-            is wrong 'cause something is out of place but you don't know
+            secures everything in place, helping you avoid those &apos;Oops, I
+            didn&apos;t mean to move that&apos; moments. Or something like
+            realising an animation is wrong &apos;cause something is out of
+            place but you don&apos;t know{" "}
             <LinkComponent href={"google.com"} text={"this link"} /> or where
             that thing. Again, the Protopie canvas is not as friendly. Plus, it
             saves time in the long run by reducing unnecessary adjustments.⁠
