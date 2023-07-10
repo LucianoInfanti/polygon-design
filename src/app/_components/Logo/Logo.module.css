@@ -1,0 +1,9 @@
+.logo {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
+.author {
+    color: gray;
+}

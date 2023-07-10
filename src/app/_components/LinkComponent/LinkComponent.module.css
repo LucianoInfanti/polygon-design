@@ -1,0 +1,13 @@
+.wrapper {
+    font-family: 'FiraCode';
+    color: gray;
+    font-size: 14px;
+    letter-spacing: -1px;
+
+    transition: color 0.4s;
+}
+
+.wrapper:hover {
+    cursor: pointer;
+    color: white;
+}

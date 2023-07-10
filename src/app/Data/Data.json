@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "title": "Cursors and Pointers",
+    "date": "10/02/1993",
+    "slug": "cursors-and-pointers"
+  },
+  {
+    "id": 2,
+    "title": "What is an API",
+    "date": "10/02/1993",
+    "slug": "what-is-an-api"
+  },
+  {
+    "id": 3,
+    "title": "Scroll Snap",
+    "date": "10/02/1993",
+    "slug": "scroll-snap"
+  },
+  {
+    "id": 4,
+    "title": "The 'Text-balance' property",
+    "date": "10/02/1993",
+    "slug": "the-text-balance-property"
+  },
+  {
+    "id": 5,
+    "title": "Fluid typography with 'Clamp()'",
+    "date": "10/02/1993",
+    "slug": "fluid-typography-with-clamp"
+  },
+  {
+    "id": 6,
+    "title": "HTML input types",
+    "date": "10/02/1993",
+    "slug": "html-input-types"
+  },
+  {
+    "id": 7,
+    "title": "The normal flow",
+    "date": "10/02/1993",
+    "slug": "the-normal-flow"
+  },
+  {
+    "id": 8,
+    "title": "How browsers work",
+    "date": "10/02/1993",
+    "slug": "how-browsers-work"
+  },
+  {
+    "id": 9,
+    "title": "The box model",
+    "date": "10/02/1993",
+    "slug": "the-box-model"
+  },
+  {
+    "id": 10,
+    "title": "Flexbox",
+    "date": "10/02/1993",
+    "slug": "flexbox"
+  }
+  ,
+  {
+    "id": 11,
+    "title": "CSS layout algorithms",
+    "date": "10/02/1993",
+    "slug": "css-layout-algorithms"
+  }
+]
