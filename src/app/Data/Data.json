@@ -58,11 +58,22 @@
     "title": "Flexbox",
     "date": "10/02/1993",
     "slug": "flexbox"
-  }
-  ,
+  },
   {
     "id": 11,
     "title": "CSS layout algorithms",
+    "date": "10/02/1993",
+    "slug": "css-layout-algorithms"
+  },
+  {
+    "id": 12,
+    "title": "Percentages",
+    "date": "10/02/1993",
+    "slug": "css-layout-algorithms"
+  },
+  {
+    "id": 13,
+    "title": "Parenting",
     "date": "10/02/1993",
     "slug": "css-layout-algorithms"
   }

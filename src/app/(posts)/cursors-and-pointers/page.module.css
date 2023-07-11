@@ -57,7 +57,7 @@
 }
 
 .article_wrapper {
-   padding-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 /* THIRD COLUMN */
@@ -73,4 +73,161 @@
     position: fixed;
     right: 16px;
     bottom: 16px;
+}
+
+
+
+/* CURSORS */
+
+.auto {
+    cursor: auto;
+}
+
+.default {
+    cursor: default;
+}
+
+.none {
+    cursor: none;
+}
+
+.context_menu {
+    cursor: context-menu;
+}
+
+.help {
+    cursor: help;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.text {
+    cursor: text;
+}
+
+.vertical_text {
+    cursor: vertical-text;
+}
+
+.alias {
+    cursor: alias;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.move {
+    cursor: move;
+}
+
+.no_drop {
+    cursor: no-drop;
+}
+
+.not_allowed {
+    cursor: not-allowed;
+}
+
+.all_scroll {
+    cursor: all-scroll;
+}
+
+.col_resize {
+    cursor: col-resize;
+}
+
+.row_resize {
+    cursor: row-resize;
+}
+
+.n_resize {
+    cursor: n-resize;
+}
+
+.e_resize {
+    cursor: e-resize;
+}
+
+.s_resize {
+    cursor: s-resize;
+}
+
+.w_resize {
+    cursor: w-resize;
+}
+
+.ns_resize {
+    cursor: ns-resize;
+}
+
+.ew_resize {
+    cursor: ew-resize;
+}
+
+.ne_resize {
+    cursor: ne-resize;
+}
+
+.nw_resize {
+    cursor: nw-resize;
+}
+
+.se_resize {
+    cursor: se-resize;
+}
+
+.sw_resize {
+    cursor: sw-resize;
+}
+
+.nesw_resize {
+    cursor: nesw-resize;
+}
+
+.nwse_resize {
+    cursor: nwse-resize;
+}
+
+.cursor_wrapper {
+    margin-bottom: 32px;
+}
+
+.cursor_wrapper>div {
+    display: flex;
+    border-bottom: 1px solid #1a1a1a;
+    flex-wrap: wrap;
+    padding: 24px 0px;
+}
+
+.cursor_wrapper>div:hover {
+    color: gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.video_wrapper {
+    margin-bottom: 32px;
+}
+
+.video {
+    margin-bottom: 8px;
 }

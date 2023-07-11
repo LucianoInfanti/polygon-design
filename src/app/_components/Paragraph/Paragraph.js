@@ -8,7 +8,7 @@ export const Paragraph = ({ children }) => {
   const isInView = useInView(ref);
 
   const variants = {
-    visible: { opacity: 1, y: 5 },
+    visible: { opacity: 1 },
     hidden: { opacity: 0 },
   };
 

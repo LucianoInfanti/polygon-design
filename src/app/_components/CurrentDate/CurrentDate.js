@@ -46,7 +46,7 @@ const CurrentDate = () => {
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
 
-  let currentDate = `${day}/${month}/${year}`;
+  let currentDate = `${month}/${day}/${year}`;
 
   return (
     <div>
